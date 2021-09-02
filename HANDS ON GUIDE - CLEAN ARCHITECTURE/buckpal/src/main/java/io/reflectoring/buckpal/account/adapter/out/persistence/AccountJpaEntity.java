@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-class AccountJpaEntity {
+class AccountJpaEntity { //JPA: it can be hibernate
 
 	@Id
 	@GeneratedValue
