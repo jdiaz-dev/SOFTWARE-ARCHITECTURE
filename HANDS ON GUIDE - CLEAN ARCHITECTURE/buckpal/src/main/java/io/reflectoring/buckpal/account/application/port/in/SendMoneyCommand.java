@@ -17,6 +17,7 @@ public
 class SendMoneyCommand extends SelfValidating<SendMoneyCommand> {
 
     //validating data input
+    //the command (model) can modify the domain model according to the use case
     @NotNull
     private final AccountId sourceAccountId;
 

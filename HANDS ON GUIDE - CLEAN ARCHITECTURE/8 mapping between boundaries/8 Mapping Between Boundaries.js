@@ -13,6 +13,12 @@
       --the advantage of this mapping strategy is that every layer has a model according to its needs
       --the drawbacks is that due to mapping, it is produced a lot boilerplate code, besides to debug this mapping is pain
 
+    **The “Full” Mapping Strategy
+      --every layer has its own mapping model
+      --there is a command (model) for every use case
+      -- (IMPORTANT)no recommendable between the aplication layer and persitence layer due to mapping overhead
+      --the use case might return an domain model as output model
 
+      --the strategies mapping should be mixed
 
-*/
+      */
