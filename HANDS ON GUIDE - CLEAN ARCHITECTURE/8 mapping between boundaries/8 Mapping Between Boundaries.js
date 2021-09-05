@@ -21,4 +21,18 @@
 
       --the strategies mapping should be mixed
 
-      */
+    **The “One-Way” Mapping Strategy
+      --the models in every layer implements the same interface. It interface has the state of domain and it allows to map according to needs of every layer
+      --this interface is a state interface
+      --we can return the domain model without map 
+      --the outer layer decide if works with the interface 
+    
+      --this concerpt palys good with the concept DDD concept of a factory, where the factory in terms of DDD reconstituting a domain object from a certain state
+      --every layer only can map one way
+
+      --this strategy is conceptually more difficualt that another strategies
+
+      --this strategy play better if the models are similar because return without need to map
+
+
+ */
