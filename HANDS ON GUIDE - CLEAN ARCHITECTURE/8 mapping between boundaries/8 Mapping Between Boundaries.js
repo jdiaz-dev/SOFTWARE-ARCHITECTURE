@@ -51,4 +51,10 @@
       check the detailed examples: pages 75 and 76
 
 
+    **How Does This Help Me Build Maintainable Software?
+      --the incomming and outpoing portsdefine how the layers communicate, they acting as gatekeepers
+      --we can use a different mapping strategy for every use case, it allows to evolve the mapping strategy in the time if it is necessary
+      --to be selecting a mapping strategy for differents case is harder and require more time and communication, but the reward is a code more mantainable
+
+
  */
