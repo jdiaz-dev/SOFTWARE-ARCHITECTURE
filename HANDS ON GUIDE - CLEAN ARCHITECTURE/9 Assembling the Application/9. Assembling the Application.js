@@ -13,6 +13,10 @@
       
       
     **Assembling via Plain Code
+      ↓ Drawbacks
+      --with plain code we need to write a lot code
+      --we run the risk to inject wrong dependencies
 
-
+    **Assembling via Spring’s Java Config
+      
 */
