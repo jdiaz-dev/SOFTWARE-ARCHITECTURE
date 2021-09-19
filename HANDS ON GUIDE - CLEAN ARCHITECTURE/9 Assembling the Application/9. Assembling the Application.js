@@ -18,5 +18,13 @@
       --we run the risk to inject wrong dependencies
 
     **Assembling via Spring’s Java Config
+      --if we use springframework to assembly our application, the result will be called the "application context"
+      --the springframework scanning our classpath through its annotations
+      --all disponible classes are added to the "application context"
+      --the drawback using dependency injection is that we need to use annotaions of framework, it crash with the Clean Architecture
+      --we might have errors dificult to track if we are noobs with springframework
+
+    **Assembling via Spring’s Java Config
       
+
 */
