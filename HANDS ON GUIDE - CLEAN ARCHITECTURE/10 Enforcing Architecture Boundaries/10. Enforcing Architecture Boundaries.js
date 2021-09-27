@@ -18,5 +18,18 @@
         --but with archUnit, these test are not infalible; if we make a  refactor the test will run and it will not find Dependecy Rule Violation
 
       **Build Artifacts
+        --we have used only packages to define our architecture
+        --an artifact is the result of build process
+        --there are 2 populr build tools  : maven and gradle
+        --we can call to maven or gradle to compile, test and package the code of our application in a single jar file
+        --a build tool first check if all artifacts the codebase depends is available, but it will fail in compile time
+        --in every module or layer we create a separated build module with its own code and artifacts; finally in build script we specify only dependencies to other modules that are allowed according our architecture
+
+        --we can create a artifact by every part of module in this way: an artifact by input and output adapter, input and output port, services and domain logic confirating the dependencies according our architecture
         
+*/
+
+/* 
+  --I stayed here: 
+  Next, we could decide to split up the application module further
 */
