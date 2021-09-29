@@ -26,6 +26,16 @@
         --in every module or layer we create a separated build module with its own code and artifacts; finally in build script we specify only dependencies to other modules that are allowed according our architecture
 
         --we can create a artifact by every part of module in this way: an artifact by input and output adapter, input and output port, services and domain logic confirating the dependencies according our architecture
+
+        --however if finer is our cut, we need to use more mapping between those modules
+        --use build modules (artifacts) has advantages: the first advantage is void cirucular dependencies, the second advantage that we can make changes and test independently of other build module
+        -we can even put every build module in its own code repository, so every team can mantains every build module
+
+        --due in a build module the depencency is defined in a build script, it is dificult that a developer add a dependency actidentally
+        --the cost of split our architecture in build modules is to mantain the script build.
+
+      **How Does This Help Me Build Maintainable Software?
+
         
 */
 
