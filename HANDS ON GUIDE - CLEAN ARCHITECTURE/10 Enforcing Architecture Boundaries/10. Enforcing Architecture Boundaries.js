@@ -35,11 +35,15 @@
         --the cost of split our architecture in build modules is to mantain the script build.
 
       **How Does This Help Me Build Maintainable Software?
+        --software architecture is all about manage dependencies between elements architecture
+        --to keep the architecture in the time we need make sure that depencencies point in the right direction
+        --we can use post-compile elements to enfoce the boundaries packages
+        --if we feel that architecture is stable we should add extra architecture elements
+
+        --the 3 appraches should be used
+            1. modifier access (java)
+            2. archiUnit (java)
+            2. configuration element in stable build module
 
         
-*/
-
-/* 
-  --I stayed here: 
-  Next, we could decide to split up the application module further
 */
