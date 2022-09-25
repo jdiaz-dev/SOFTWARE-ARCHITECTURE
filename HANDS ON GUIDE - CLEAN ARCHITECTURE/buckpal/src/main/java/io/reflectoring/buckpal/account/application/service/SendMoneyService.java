@@ -23,6 +23,10 @@ import java.time.LocalDateTime;
 //a TRANSACTION usually means a sequence of information exchange and related work (such as database updating) that is treated as a unit for the purposes of satisfying a request and for ensuring database integrity.
 
 /* =============================== USE CASE SERVICE =============================== */
+/* 
+	- another example make a buy in Amazon and calculate close route to deliver product
+	- register user and notify
+ */
 public class SendMoneyService implements SendMoneyUseCase {
 
 	//pluggin the ports that our service need
